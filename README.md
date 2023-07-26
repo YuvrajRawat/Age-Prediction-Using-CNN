@@ -25,6 +25,9 @@ Model Training: The model is trained using the model.fit function with the train
 Save Trained Weights: The trained weights of the model are saved to a file named 'age_detection_model.h5' for future use.
 Prediction and Evaluation: After training, the training and validation accuracies are calculated based on the MAE metric. The model's performance is evaluated using plots to visualize training and validation accuracies and losses over epochs.
 
+Dataset Used: 
+https://www.kaggle.com/datasets/mariafrenti/age-prediction
+
 Conclusion:
 The provided code implements a Convolutional Neural Network (CNN) for age detection using a regression approach. The model is trained with data augmentation techniques to predict the age of a person from images. The model's performance can be assessed using Mean Absolute Error (MAE) to understand how well it predicts the ages.
 
